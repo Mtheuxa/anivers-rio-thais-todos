@@ -125,8 +125,8 @@ setInterval(criarConfete, 200);
     });
   
 
-  const carrosselLuiza = document.getElementById("carrosselLuiza");
-const totalImagensLuiza = 11;
+const carrosselLuiza = document.getElementById("carrosselLuiza");
+const totalImagensLuiza = 17;
 const larguraImagemLuiza = 300;
 let posicaoLuiza = 0;
 

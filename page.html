@@ -23,8 +23,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Link para o arquivo CSS -->
-  <link rel="stylesheet" href="style/style.css">
-  <link rel="stylesheet" href="style/desktop.css">
+  <link rel="stylesheet" href="assets/style/style.css">
+  <link rel="stylesheet" href="assets/style/desktop.css">
   <title>Feliz Aniversário</title>
 </head>
 <body>
@@ -61,7 +61,7 @@
 
   <!-- Imagem do bolo de aniversário -->
   <div id="imagem-bolo">
-    <img id="bolo_grande" src="icones/17-anos.png" alt="Bolo de Aniversário">
+    <img id="bolo_grande" src="assets/img/icon/17-anos.png" alt="Bolo de Aniversário">
   </div>
   </section>
 
@@ -80,17 +80,18 @@
     <section id="insta">
       <!-- Perfil do Instagram -->
       <div id="perfil-container">
-        <img id="perfil" src="imagem_perfil/Perfil_thais.jpg" alt="perfil">
-        <p>Thais Santos<img id="verificado" src="icones/verificado.png" alt="Verificado"> <br> <i style="font-size: small;">Itanhandu</i></p>
+        <img id="perfil" src="assets/img/perfil/Perfil_thais.jpg" alt="perfil">
+        <p>Thais Santos<img id="verificado" src="assets/img/icon/verificado.png" alt="Verificado"> <br> <i style="font-size: small;">Itanhandu</i></p>
       </div>
       
       <!-- Carrossel de imagens -->
       <div class="carrossel">
-        <img class="slides" src="imagem_perfil/Perfil_thais.jpg" alt="Foto 3">
-        <img class="slides" src="imagem_perfil/Perfil_thais.jpg" alt="Foto 5">
-        <img class="slides" src="imagem_perfil/Perfil_thais.jpg" alt="Foto 2">
-        <img class="slides" src="imagem_perfil/Perfil_thais.jpg" alt="Foto 7">
-        <img class="slides" src="imagem_perfil/Perfil_thais.jpg" alt="Foto 1">
+        <img class="slides" src="assets/img/carrossel-1/Perfil_thais.jpg" alt="Foto 1">
+        <img class="slides" src="assets/img/carrossel-1/Post_carna.jpg" alt="Foto 2">
+        <img class="slides" src="assets/img/carrossel-1/Post_casa.jpg" alt="Foto 3">
+        <img class="slides" src="assets/img/carrossel-1/Perfil_thais.jpg" alt="Foto 4">
+        <img class="slides" src="assets/img/carrossel-1/Perfil_thais.jpg" alt="Foto 5">
+        <img class="slides" src="assets/img/carrossel-1/Perfil_thais.jpg" alt="Foto 6">
       </div>
       
       <!-- Indicadores do carrossel -->
@@ -100,18 +101,19 @@
         <span class="dot" onclick="moveToSlide(2)"></span>
         <span class="dot" onclick="moveToSlide(3)"></span>
         <span class="dot" onclick="moveToSlide(4)"></span>
+        <span class="dot" onclick="moveToSlide(5)"></span>
       </div>
       
       <!-- Seção de curtidas -->
       <div id="curtida">
-        <img id="likeIcon" src="icones/coracao.png" alt="Curtir">
+        <img id="likeIcon" src="assets/img/icon/coracao.png" alt="Curtir">
         <p id="quant_like">1.943</p>
       </div>
 
       <!-- Comentários no post -->
       <div id="comentario">
         <p id="nome-perfil">
-          <img id="perfil-lucas" src="imagem_perfil/Perfil_mt.jpg" alt="">
+          <img id="perfil-lucas" src="assets/img/perfil/Perfil_mt.jpg" alt="">
           <i>Matheus Araujo</i>
         </p>
         <p id="meu-comentario">De longe a mais linda que já entrou na minha vida ❤️❤️❤️❤️</p>
@@ -121,7 +123,7 @@
       <!-- Mais comentários (estrutura repetida) -->
       <div id="comentario">
         <p id="nome-perfil">
-          <img id="perfil-lucas" src="imagem_perfil/Perfil_mt.jpg" alt="">
+          <img id="perfil-lucas" src="assets/img/perfil/Perfil_mt.jpg" alt="">
           <i>Matheus Araujo</i>
         </p>
         <p id="meu-comentario">
@@ -136,7 +138,7 @@
       <!-- Comentário 3 -->
       <div id="comentario">
         <p id="nome-perfil">
-          <img id="perfil-lucas" src="imagem_perfil/Perfil_mt.jpg" alt="">
+          <img id="perfil-lucas" src="assets/img/perfil/Perfil_mt.jpg" alt="">
           <i>Matheus Araujo</i>
         </p>
         <p id="meu-comentario">
@@ -151,7 +153,7 @@
       <!-- Comentário 4 -->
       <div id="comentario">
         <p id="nome-perfil">
-          <img id="perfil-lucas" src="imagem_perfil/Perfil_mt.jpg" alt="">
+          <img id="perfil-lucas" src="assets/img/perfil/Perfil_mt.jpg" alt="">
           <i>Matheus Araujo</i>
         </p>
         <p id="meu-comentario">
@@ -166,7 +168,7 @@
       <!-- Comentário 5 -->
       <div id="comentario">
         <p id="nome-perfil">
-          <img id="perfil-lucas" src="imagem_perfil/Perfil_mt.jpg" alt="">
+          <img id="perfil-lucas" src="assets/img/perfil/Perfil_mt.jpg" alt="">
           <i>Matheus Araujo</i>
         </p>
         <p id="meu-comentario">
@@ -181,7 +183,7 @@
       <!-- Comentário 6 -->
       <div id="comentario">
         <p id="nome-perfil">
-          <img id="perfil-lucas" src="imagem_perfil/Perfil_mt.jpg" alt="">
+          <img id="perfil-lucas" src="assets/img/perfil/Perfil_mt.jpg" alt="">
           <i>Matheus Araujo</i>
         </p>
         <p id="meu-comentario">
@@ -203,21 +205,23 @@
       <!-- Carrossel horizontal de fotos -->
       <div class="carrosselLuiza-container">
         <div class="carrosselLuiza" id="carrosselLuiza">
-          <img src="imagem_perfil/Perfil_apt.jpg" alt="fot-01">
-          <img src="imagem_perfil/Perfil_carnaval.jpg" alt="fot-02">
-          <img src="imagem_perfil/Perfil_praia.jpg" alt="fot-03">
-          <img src="imagem_perfil/Perfil_bgs.jpg" alt="fot-04">
-          <img src="imagem_perfil/Perfil_anonovo.jpg" alt="fot-05">
-          <img src="imagem_perfil/Perfil_prediocarna.jpg" alt="fot-06">
-          <img src="imagem_perfil/Perfil_show.jpg" alt="fot-07">
-          <img src="imagem_perfil/Perfil_prainha.jpg" alt="fot-08">
-          <img src="imagem_perfil/Perfil_insta.jpg" alt="fot-09">
-          <img src="imagem_perfil/Perfil_minas.jpg" alt="fot-10">
-          <img src="imagem_perfil/Perfil_julianos.jpg" alt="fot-11">
-          <img src="imagem_perfil/Perfil_anopraia.jpg" alt="fot-12">
-          <img src="imagem_perfil/Perfil_prainha2.jpg" alt="fot-13">
-          <img src="imagem_perfil/Perfil_ibira.jpg" alt="fot-14">
-          <img src="imagem_perfil/Perfil_bgs2.jpg" alt="fot-15">
+          <img src="assets/img/carrossel-2/Perfil_apt.jpg" alt="fot-01">
+          <img src="assets/img/carrossel-2/Perfil_carnaval.jpg" alt="fot-02">
+          <img src="assets/img/carrossel-2/Perfil_praia.jpg" alt="fot-03">
+          <img src="assets/img/carrossel-2/Perfil_bgs.jpg" alt="fot-04">
+          <img src="assets/img/carrossel-2/Perfil_anonovo.jpg" alt="fot-05">
+          <img src="assets/img/carrossel-2/Perfil_prediocarna.jpg" alt="fot-06">
+          <img src="assets/img/carrossel-2/Perfil_show.jpg" alt="fot-07">
+          <img src="assets/img/carrossel-2/Perfil_prainha.jpg" alt="fot-08">
+          <img src="assets/img/carrossel-2/Perfil_insta.jpg" alt="fot-09">
+          <img src="assets/img/carrossel-2/Perfil_minas.jpg" alt="fot-10">
+          <img src="assets/img/carrossel-2/Perfil_julianos.jpg" alt="fot-11">
+          <img src="assets/img/carrossel-2/Perfil_xv.jpg" alt="fot-16">
+          <img src="assets/img/carrossel-2/Perfil_anopraia.jpg" alt="fot-12">
+          <img src="assets/img/carrossel-2/Perfil_prainha2.jpg" alt="fot-13">
+          <img src="assets/img/carrossel-2/Perfil_ibira.jpg" alt="fot-14">
+          <img src="assets/img/carrossel-2/Perfil_bgs2.jpg" alt="fot-15">
+          <img src="assets/img/carrossel-2/Perfil_dancaxv.jpg" alt="fot-17">
         </div>
       </div>
       
@@ -231,7 +235,7 @@
     <!-- Seção de músicas do Spotify -->
     <section id="spotify">
       <h3 class="h3" id="frase-spotify">Músicas que marcaram quando você entrou na minha vida. </h3>
-      <h3 class="h3"><i><img id="ico-spotify" src="icones/spotify.png" alt="">Previas do Spotify</i> </h3>
+      <h3 class="h3"><i><img id="ico-spotify" src="assets/img/icon/spotify.png" alt="">Previas do Spotify</i> </h3>
 
       <!-- Embed de músicas do Spotify -->
       <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/7nSataGo54Le0IfcFQCFLN?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
@@ -271,7 +275,7 @@
       
         
         <!-- Link para o arquivo JavaScript -->
-        <script src="script/script.js"></script>
+        <script src="/assets/script/script.js"></script>
     </footer>
 
 </body>

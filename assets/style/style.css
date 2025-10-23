@@ -538,3 +538,97 @@ h1 {
   margin-top: 5px;
   color: #8b949e;
 }
+
+/* ==========================================================================
+   Estilos para Responsividade em Celulares
+========================================================================== */
+@media screen and (max-width: 500px) {
+
+    /* Ajusta o título principal para telas menores */
+    #titulo-principal {
+        font-size: 1.8em;
+        margin: 20px;
+    }
+
+    /* Ajusta o tamanho da imagem do bolo */
+    #bolo_grande {
+        width: 200px;
+    }
+
+    /* Ajusta o padding da caixa de parabéns */
+    #parabens {
+        padding: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    #parabens p {
+        font-size: 1em; /* Ajusta o tamanho da fonte do texto */
+    }
+
+    /* Ajusta o carrossel de fotos do "Instagram" */
+    .carrossel {
+        margin-top: 20px;
+    }
+
+    .slides {
+        width: 90%; /* Usa porcentagem para se adaptar à largura da tela */
+        height: auto; /* Altura automática para manter a proporção */
+    }
+    
+    /* Ajusta a seção do segundo carrossel */
+    #p-carrosel-juntos {
+        font-size: 1em;
+        padding: 10px;
+    }
+
+    .carrosselLuiza img {
+        height: 250px; /* Reduz a altura das imagens no segundo carrossel */
+    }
+
+    /* Ajusta os botões do segundo carrossel */
+    .btnLuiza {
+        padding: 8px 15px;
+        font-size: 0.9em;
+    }
+
+    /* Ajusta a seção do Spotify */
+    #spotify {
+        padding: 20px 10px;
+    }
+
+    #frase-spotify {
+        font-size: 1.1em;
+        padding: 10px 15px;
+    }
+
+    /* Ajusta o contador regressivo */
+    .contador {
+        gap: 5px; /* Diminui o espaço entre os itens do contador */
+        flex-wrap: wrap; /* Permite que os itens quebrem a linha se não couberem */
+    }
+
+    #temporizador .tempo {
+        padding: 10px;
+        font-size: 1.5rem;
+        min-width: 80px; /* Largura mínima para cada item do tempo */
+    }
+
+    .tempo span {
+        font-size: 0.8rem;
+    }
+
+    /* Ajusta o tamanho das imagens do sistema solar */
+    .sol {
+        width: 80px;
+        height: 80px;
+    }
+    .orbita-terra {
+        width: 250px;
+        height: 250px;
+    }
+    .terra {
+        width: 25px;
+        height: 25px;
+    }
+}
